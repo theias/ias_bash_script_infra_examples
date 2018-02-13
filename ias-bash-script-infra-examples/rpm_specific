@@ -1,0 +1,7 @@
+Requires: ias-bash-script-infra
+AutoReqProv: no 
+Summary: Examples of Bash scripts that should work with ias_bash_script_infra
+Group: Generic Group
+License: Generic License
+Vendor: Generic Vendor
+BuildArch: noarch
