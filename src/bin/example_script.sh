@@ -11,7 +11,7 @@ LOG_TO_FILE='1'
 . /opt/IAS/lib/bash4/IAS/BashInfra/full_project_lib.sh
 
 if [[ ! -d `get_project_whence` ]]; then
-	echo "I was unable to find my whence dir.  Please check bash_lib.sh"
+	echo "I was unable to find my whence dir.  Please check full_project_lib.sh"
 	exit 1
 fi
 
