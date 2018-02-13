@@ -21,11 +21,12 @@ write_log_start
 
 output_file_name=`get_output_file_name`
 
-echo "Here is the configuration file example_config.conf:"
-cat `get_conf_dir`/example_config.conf
+write_log_informational "Here is the configuration file example_config.conf:"
+write_log_informational `get_conf_dir`/example_config.conf
 
-write_log_informational "Wrote: ${output_file_name}"
+example_subroutine "${output_file_name}"
+exit_status=$?
+
 write_log_informational "Exit status: ${exit_status}"
 
 write_log_end
-
